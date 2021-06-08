@@ -1,31 +1,29 @@
-*
-{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
-body{
+body {
   height: 200vh;
 }
-section{
+section {
   position: fixed;
-  width:100%;
+  width: 100%;
   height: 100vh;
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-section ::after{
-  content: '';
+section ::after {
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%
+  height: 100%;
 }
-section img#bg{
+#bg {
   position: absolute;
   top: 0;
   left: 0;
@@ -33,9 +31,8 @@ section img#bg{
   height: 100%;
   object-fit: cover;
   pointer-events: none;
-
 }
-section img#moon{
+#moon {
   position: absolute;
   top: 0;
   left: 0;
@@ -43,44 +40,39 @@ section img#moon{
   height: 100%;
   object-fit: cover;
   pointer-events: none;
-
 }
-section img#cloud1{
+#cloud1 {
   position: absolute;
   top: 100px;
   left: 50px;
   max-width: 600px;
   z-index: 2;
-
-
 }
-section img#cloud2{
+#cloud2 {
   position: absolute;
   top: 200px;
   right: 50px;
   max-width: 600px;
   z-index: 2;
-
 }
-section img#santa{
+#santa {
   position: absolute;
   bottom: 50px;
   left: -600px;
   z-index: 2;
   max-width: 600px;
-
 }
-section img#tree{
+#tree {
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
   height: 266px;
-  background: url(tree.png)
+  background: url(tree.png);
   background-position-y: 266px;
   z-index: 10;
 }
-section h2#text{
+section h2#text {
   position: absolute;
   bottom: -400px;
   left: 0;
